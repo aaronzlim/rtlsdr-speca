@@ -10,13 +10,12 @@ default_font = 'Helvetica 14'
 canvas_size = (840, 480) # width, height
 
 @dataclass
-class keys:
+class Keys:
     CANVAS_TITLE = 'text-canvas-title'
     CANVAS = 'canvas-canvas'
 
 _layout = [
-    [sg.Text(text='RTL-SDR Spectrum Analyzer', font=title_font, key=keys.CANVAS_TITLE)],
-    [sg.Canvas(size=canvas_size, key=keys.CANVAS)],
+    [sg.Canvas(size=canvas_size, key=Keys.CANVAS)],
 ]
 
 def layout():
