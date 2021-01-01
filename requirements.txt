@@ -7,4 +7,5 @@ pyparsing==2.4.7
 pyrtlsdr==0.2.92
 PySimpleGUI==4.32.1
 python-dateutil==2.8.1
+-e git+https://github.com/aaronzlim/rtlsdr-speca.git@dc65e8fb72f4490b0f4b6e74b6975305cdb96fc5#egg=rtlsdr_speca
 six==1.15.0
